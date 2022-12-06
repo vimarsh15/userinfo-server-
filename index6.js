@@ -31,8 +31,8 @@ app.use((err, req, res, next) => {
     
     });
   });
-// app.get('/',(req,res)=>{
-//      res.send('hello')  
-// })
+app.get('/',(req,res)=>{
+     res.send('hello')  
+})
 
 app.listen(3200, console.log('server on'))
